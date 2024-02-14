@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02.PageInit"
+             Title="PageInit">
+    <VerticalStackLayout>
+       
+        <Image x:Name="Foto" BackgroundColor="Blue" Aspect="AspectFit" WidthRequest="200" HeightRequest="200" />
+        <Button x:Name="btntomar" Text="Tomar" Clicked="btntomar_Clicked" WidthRequest="200" Margin="5,10,5,5"/>
+        <Entry x:Name="Nombre" Placeholder="Nombre" Keyboard="Text" Margin="5,10,5,5"/>
+        <Entry x:Name="Apellido" Placeholder="Apellido" Keyboard="Text" Margin="5,10,5,5"/>
+        <DatePicker x:Name="Fechanac" Format="d" Margin="5,10,5,5"/>
+        <Entry x:Name="telefono" Placeholder="teléfono" Keyboard="Telephone" Margin="5,10,5,5"/>
+        <Button x:Name="btnprocesar" Text="Procesar" Clicked="btnprocesar_Clicked" Margin="5,10,5,5"/>
+        <Button x:Name="btnVerlista" Text="Lista" Clicked="btnVerlista_Clicked" Margin="5,10,5,5"/>
+    </VerticalStackLayout>
+</ContentPage>
